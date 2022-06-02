@@ -434,11 +434,11 @@ class _HomeState extends State<Home> {
           Text('已花費$_cost水晶'),
           Text('已抽$_card張卡片，分別如下：'),
           Text('$_2star張2星卡'),
-          if (_card != 0) Text('${_2star / _card}%\n'),
+          if (_card != 0) Text('${_2star / _card*100}%\n'),
           Text('$_3star張3星卡'),
-          if (_card != 0) Text('${_3star / _card}%\n'),
+          if (_card != 0) Text('${_3star / _card*100}%\n'),
           Text('$_bd張生日卡'),
-          if (_card != 0) Text('${_bd / _card}%')
+          if (_card != 0) Text('${_bd / _card*100}%')
         ],
       ),
       floatingActionButton: FloatingActionButton.extended(
