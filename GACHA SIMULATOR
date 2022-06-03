@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'dart:async';
 
+//把程式碼丟到這裡就可以執行囉！https://dartpad.dev/?
+
 void main() => runApp(MaterialApp(home: Home()));
 
 int _cost = 0;
